@@ -4,10 +4,10 @@ from utime import sleep
 pin = Pin("LED", Pin.OUT)
 
 print("LED starts flashing...")
-while True:
+for i in range(20):
     try:
         pin.toggle()
-        sleep(1) # sleep 1sec
+        sleep(.25)  # sleep 1sec
     except KeyboardInterrupt:
         break
 pin.off()

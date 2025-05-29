@@ -5,7 +5,7 @@
         "reportMissingModuleSource": "none"
     },
     "python.terminal.activateEnvironment": false,
-    "micropico.openOnStart": true,
+    "micropico.openOnStart": false,
     // "micropico.manualComDevice": "/dev/tty.usbmodem101",
     "python.analysis.typeshedPaths": [
         "~/.micropico-stubs/included"
