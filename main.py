@@ -28,7 +28,6 @@ def record():
     button_pin_state = BUTTON_ON
     led_pin.on()
     while cycle_counter < total_cycles:
-        print(cycle_counter)
         toggle_counter = 0
         while button_pin.value() == button_pin_state and cycle_counter < total_cycles:
             toggle_counter += 1
